@@ -7,6 +7,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.apache.poi.util.SystemOutLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -17,6 +18,7 @@ import com.crm.qa.util.TestUtil;
 import com.crm.qa.util.WebEventListener;
 
 public class Tester1 {
+	//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
 	
 	public static WebDriver driver;
 	public static Properties prop;
@@ -66,7 +68,10 @@ public class Tester1 {
 	}
 	
 	
-	
+	public void methodtorecheck()
+	{
+		System.out.println("updating new changes");
+	}
 	
 	
 	
